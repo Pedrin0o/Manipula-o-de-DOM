@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-T">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de JavaScript - DOM</title>
+    <style>
+        /* Estilo para a classe 'highlight' do exercício 6 */
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+        /* Estilo para o botão desabilitado dos exercícios 9 e 10 */
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        /* Pequenos estilos para melhorar a aparência */
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        input[type="text"] {
+            padding: 8px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+            cursor: pointer; /* Para o exercício 15 */
+        }
+        #botoes-container {
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1 id="titulo-principal">Título Original</h1>
+
+    <p class="paragrafo">Este é o primeiro parágrafo, com a classe "paragrafo".</p>
+    <p>Este é o segundo parágrafo, sem classe específica.</p>
+
+    <ul id="lista-itens">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <div>
+        <input type="text" id="campo-texto" placeholder="Digite algo aqui...">
+        <button id="btn-adicionar">Adicionar Item</button>
+    </div>
+    
+    <div id="botoes-container">
+        </div>
+
+
+    <script src="script.js" defer></script>
+
+</body>
+</html>
